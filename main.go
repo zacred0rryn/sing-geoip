@@ -241,7 +241,7 @@ func release(source string, destination string, output string, ruleSetOutput str
 		outputRuleSet.Close()
 	}
 	tagName := *sourceRelease.TagName
-	setActionOutput("tag", *sourceRelease.tagName)
+	setActionOutput("tag", tagName)
 	return nil
 }
 
